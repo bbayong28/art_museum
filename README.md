@@ -1,6 +1,7 @@
 # Korean Art Museum
 
 미술관 전시정보 사이트
+
 react icons, react-router-dom, react-slick, slick-carousel을 사용
 
 - slick을 이용한 슬라이드 구현.
