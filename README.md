@@ -2,7 +2,7 @@
 
 미술관 전시정보 사이트
 
-react icons, react-router-dom, react-slick, slick-carousel, npm i @emailjs/browser을 사용하였습니다.
+react icons, react-router-dom, react-slick, slick-carousel, emailjs를 사용하였습니다.
 
 - slick을 이용한 슬라이드 구현.
 - react-router-dom의 Routes, Route, Link, useNavigate을 사용해 페이지 이동구현.
