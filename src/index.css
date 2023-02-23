@@ -190,3 +190,10 @@ textarea {
 .row:after {
   clear: both;
 }
+
+textarea{
+  margin-bottom: 60px;
+  resize: none;
+  height: 6rem;
+  padding: 10px 20px;
+}

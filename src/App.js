@@ -5,9 +5,7 @@ import Login from './components/Login';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import About from './components/About'
-import Artist from './components/Artist'
-import News from './components/News'
-import Shop from './components/Shop'
+import Contact from './components/Contact'
 import Detail from './components/Detail';
 
 function App() {
@@ -17,10 +15,9 @@ function App() {
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/login' element={<Login/>} />
+        <Route path='/contact' element={<Contact/>} />
         <Route path='/about' element={<About/>} />
-        <Route path='/artist' element={<Artist/>} />
-        <Route path='/news' element={<News/>} />
-        <Route path='/shop' element={<Shop />} />          
+        <Route path='/contact' element={<Contact/>} />         
         <Route path='/detail/:id' element={<Detail />} />  
         {/* <Route path="*" element={ <div>없는페이지 입니다</div> }/> */}
       </Routes>

@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link, useNavigate } from 'react-router-dom'
+import { useNavigate } from 'react-router-dom'
 import { WORK } from '../data/data'
 import { AiOutlineTags, AiOutlineClockCircle } from "react-icons/ai";
 
