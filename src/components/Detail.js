@@ -1,8 +1,6 @@
 import React, {useState, useEffect} from 'react'
 import { useParams } from 'react-router-dom'
 import { WORK } from '../data/data'
-import { BsPencilSquare } from "react-icons/bs"
-import { AiOutlineDelete } from "react-icons/ai"
 
 
 const Detail = () => {
@@ -25,23 +23,14 @@ const Detail = () => {
           (
             <section className='singlePage'>
               <div className="container">
-                <div className='left'>
+                <div className='top'>
                   <img src={process.env.PUBLIC_URL + "/img/work0" + works.id + ".jpg"} alt={works.id} />
                 </div>
-                <div className='right'>
-                  <div className='buttons'>
-                    <button className="button">
-                      <BsPencilSquare />
-                    </button>
-                    <button className="button">
-                      <AiOutlineDelete />
-                    </button>
-                  </div>
-
+                <div className="bottom">
+                  <h2>{works.title}</h2>
+                  <p>{works.desc}</p>
+                  <p>Author : {works.artist}</p>
                 </div>
-                <h2>{works.title}</h2>
-                <p>{works.desc}</p>
-                <p>Author : {works.artist}</p>
               </div>
             </section>
           )

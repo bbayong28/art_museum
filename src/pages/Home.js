@@ -1,6 +1,6 @@
 import React from 'react';
-import Mainslide from './Mainslide';
-import Works from './Works';
+import Mainslide from '../components/Mainslide';
+import Works from '../components/Works';
 
 
 const Home = () => {
