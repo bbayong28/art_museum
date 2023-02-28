@@ -29,7 +29,7 @@ const Contact = () => {
     <div className='Contact'>
 
       <div className='backImg'>
-        <img src={process.env.PUBLIC_URL + "img/account.jpg"} alt='' />
+        <img src={process.env.PUBLIC_URL + "/assets/img/account.jpg"} alt='' />
         <div className='text'>
           <h3>Contact us</h3>
           <p>전시회 및 이벤트 소식을 이메일 수신 원하시면 우편목록에 가입하도록 요청하실 수 있습니다.</p>

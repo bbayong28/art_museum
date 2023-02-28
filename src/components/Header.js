@@ -17,7 +17,7 @@ const Header = () => {
       </ul>
       <Link to='/login' className="login">
         <p>Login</p>
-        <img src={process.env.PUBLIC_URL + "/img/user.png"} alt="user" />
+        <img src={process.env.PUBLIC_URL + "/assets/img/user.png"} alt="user" />
       </Link>
   </header>
   )

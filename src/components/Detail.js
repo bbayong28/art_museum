@@ -24,7 +24,7 @@ const Detail = () => {
             <section className='singlePage'>
               <div className="container">
                 <div className='top'>
-                  <img src={process.env.PUBLIC_URL + "/img/work0" + works.id + ".jpg"} alt={works.id} />
+                  <img src={process.env.PUBLIC_URL + "/assets/img/work0" + works.id + ".jpg"} alt={works.id} />
                 </div>
                 <div className="bottom">
                   <h2>{works.title}</h2>

@@ -7,7 +7,7 @@ const About = () => {
         <h2>About</h2>
       <div className="container">
         <div className='left'>
-          <img src={process.env.PUBLIC_URL + "/img/about.jpg"} alt=''/>        
+          <img src={process.env.PUBLIC_URL + "/assets//img/about.jpg"} alt=''/>        
           <div className="info">
             <p className='address'>
               <FiMap className='icon' />

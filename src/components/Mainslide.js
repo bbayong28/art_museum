@@ -55,7 +55,7 @@ const Mainslide = () => {
             SLIDE.map((slide, idx) => { 
               return (
                 <figure key={slide.id} className={'box ' +'item0' + slide.id + (idx == IDX ? 'on' : '')}>
-                  <img src={process.env.PUBLIC_URL + "img/slide0" + slide.id + ".png"} alt={slide.title} />
+                  <img src={process.env.PUBLIC_URL + "/assets/img/slide0" + slide.id + ".png"} alt={slide.title} />
                   <div className="inner">
                     <p className='tit'>{slide.title}</p>
                     <Link to={slide.link} className='more'>

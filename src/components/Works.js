@@ -19,7 +19,7 @@ const Works = () => {
                 onClick={() => { navigate(`/detail/${work.id}`) }}
               >
                 <div className='img'>
-                  <img src={process.env.PUBLIC_URL + "img/work0" + work.id + ".jpg"} alt={work.id} />
+                  <img src={process.env.PUBLIC_URL + "/assets/img/work0" + work.id + ".jpg"} alt={work.id} />
                 </div>
                 <div className='details'>
                   <div className='tag'>

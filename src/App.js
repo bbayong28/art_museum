@@ -12,6 +12,7 @@ function App() {
   return (
     <div className="Wrapper">
       <Header />
+      <Home/>
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/login' element={<Login/>} />
