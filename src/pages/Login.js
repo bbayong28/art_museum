@@ -11,9 +11,9 @@ const Login = () => {
           </div>
         </div>
         <form>
-          <span>Username or email address *</span>
+          <span>아이디 or 이메일주소 *</span>
           <input className='id' type='text' required />
-          <span>Password *</span>
+          <span>비밀번호 *</span>
           <input class='password' type='password' required />
           <button className='button'>Log in</button>
         </form>

@@ -37,13 +37,13 @@ const Contact = () => {
       </div>
 
       <form ref={form} onSubmit={sendEmail}>
-        <label>Name</label>
+        <label>이름</label>
         <input type="text" name="user_name" />
-        <label>Email</label>
+        <label>이메일</label>
         <input type="email" name="user_email" />
-        <label>Message</label>
+        <label>메세지</label>
         <textarea name="message" />
-        <input type="submit" value="Send" />
+        <input type="submit" value="전송하기" />
       </form>
       
     </div>
